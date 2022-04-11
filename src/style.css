@@ -1,0 +1,126 @@
+@import url('https://fonts.cdnfonts.com/css/sf-distant-galaxy');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url('https://cdn.pixabay.com/photo/2018/10/16/07/07/stars-3750824_1280.png');
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'SF Distant Galaxy', sans-serif;
+  /* padding: 0; */
+  /* margin: 0; */
+  font-size: xx-large;
+}
+
+h2,
+h3 {
+  font-family: 'SF Distant Galaxy Outline', sans-serif;
+  /* font-family: 'SF Distant Galaxy AltOutline', sans-serif; */
+  /* font-family: 'SF Distant Galaxy Alternate', sans-serif; */
+  /* font-family: 'SF Distant Galaxy Outline', sans-serif; */
+  /* font-family: 'SF Distant Galaxy Symbols', sans-serif; */
+}
+
+p,
+label {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+  background-color: black;
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* position: fixed; */
+}
+
+nav {
+  background-color: none;
+  color: yellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+nav h1 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-size: 3rem;
+}
+
+.search {
+  background-color: #0000009d;
+  /* box-shadow: 10px 10px 20px 2px rgba(255, 255, 0, 0.178); */
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+input,
+#searchOptions {
+  width: 33vw;
+  height: 5vh;
+  font-size: medium;
+  padding-inline-start: 0.5rem;
+  font-family: 'SF Distant Galaxy', sans-serif;
+  border-radius: 2px;
+  text-align: center;
+}
+
+#searchOptions {
+  width: 10vw;
+  font-size: small;
+  height: 3vh;
+}
+
+.moviesContainer {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie {
+  background-color: rgba(44, 44, 44, 0.684);
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  width: 66vw;
+}
+
+.movie h2 {
+  border-bottom: 2px double white;
+  padding-bottom: 0.5rem;
+}
+
+.searchOption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2ex;
+}
+
+select {
+  text-align: center;
+}
+
+::placeholder {
+  color: black;
+  opacity: 1;
+}
